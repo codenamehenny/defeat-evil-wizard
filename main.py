@@ -176,11 +176,11 @@ def battle(player, wizard):
             wizard.attack(player)
 
         if player.health <= 0:
-            print(f"{player.name} has been defeated by {wizard.name}!")
+            print(f"DEFEAT! {player.name} has been defeated by {wizard.name}!")
             break
 
     if wizard.health <= 0:
-        print(f"{wizard.name} has been defeated by {player.name}!")
+        print(f"VICTORY! {wizard.name} has been defeated by {player.name}!")
 
 # Main function to handle the flow of the game
 def main():
